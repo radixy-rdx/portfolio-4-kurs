@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to top right, rgb(101, 115, 255), rgb(111, 114, 247), rgb(120, 114, 239), rgb(130, 113, 231), rgb(139, 112, 223), rgb(149, 111, 215), rgb(158, 111, 208), rgb(168, 110, 200), rgb(177, 109, 192), rgb(187, 108, 184), rgb(196, 108, 176), rgb(206, 107, 168));  
+}
+
+p{
+    color:#E0FFFF;
+    font-size: 45px;
+}
+
+.url{
+    color: #00FF00;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.pic { 
+    text-align: center;
+    width: 350px;
+    
+}
+
+.name {
+    width: 400px;
+    border-radius: 7%;
+    height: 70px;
+    border: none;
+    font-size: 30px; 
+    text-align: center;
+      
+}
+.com { 
+    width: 400px;
+    border-radius: 7%;
+    height: 200px;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+.num {
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    border-radius: 7%;
+}
+
+button{
+    height: 70px;
+    width: 400px;
+    background-color:#FAFAD2;
+    border: none;
+    font-size: 30px;
+    border-radius: 7%;
+    
+}
+
+.form {
+display: inline-block;
+padding: 25px;
+
+
+}
+
+
+.form__error {
+color: red;
+
+
+margin-top: 3px;
+display: none;
+}
+
+.form input {
+outline: none;
+display: block;
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+}
+
+
+input:valid:not(:placeholder-shown) {
+border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+display: block;
+}
